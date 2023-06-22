@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+/*menu*/
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.MenuNavegacion {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  height: 70px;
+  width: 1047.28px;
+  margin: 0 19px 0 19px;
+  max-width: 1047.28px;
+  transform: none;
+  transition: all 0s ease 0s;
+}
+.nav_logo {
+  font-size: 24px;
+  color: #fff;
+  text-decoration: none;
+  order: 2;
+}
+
+.nav_menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav_item {
+  margin-left: 10px;
+}
+
+.nav_link {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos de la sección principal */
+.main {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, #E2DEDE 100%);
+}
+
+.main .welcome {
+  flex: 1;
+}
+
+.main .main_social {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.main .main_social p {
+  margin-left: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main img#Perfil {
+  float: right;
+  margin-left: 20px;
+  width: 200px;
+  
+}
+
+.main .titulo {
+  margin-bottom: 20px;
+}
+
+.main .informacion-personal {
+  font-size: 14px;
+}
+
+/* Estilos de la sección de proyectos */
+.projects {
+  background-color: #f4f4f4;
+  padding: 40px 0;
+}
+
+.projects .section__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.projects .container.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.projects .project {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.projects .project__img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.projects .project__title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.projects .project__description {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.projects .project__link {
+  font-size: 14px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.projects .project__link:hover {
+  text-decoration: underline;
+}
