@@ -55,36 +55,77 @@ header {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.35) 0%, #E2DEDE 100%);
 }
 
-.main .welcome {
+/*.main .welcome {
   flex: 1;
-}
+}*/
 
 .main .main_social {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  /*margin-bottom: 20px;*/
   
 }
 
-
-.main .main_social p {
-  margin-left: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-}
 
 .main img#Perfil {
-  float: right;
- 
-  
+  flex: 1;
+  max-width: 200px; /* Ajusta el tamaño de la imagen según sea necesario */
+}
+.titulo h1 {
+  font-size: 28px; /* Letras grandes */
+  margin-bottom: 10px;
 }
 
-.main .titulo {
+.titulo h3 {
+  font-size: 18px; /* Letras medianas */
   margin-bottom: 20px;
 }
 
-.main .informacion-personal {
-  font-size: 14px;
+/*Estilos de la sección de sobre mi*/
+.SobreMi {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+#imgBio {
+  flex: 1;
+  max-width: 50%;
+  margin-right: 20px;
+}
+
+.SobreMi h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.SobreMi p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+/* Estilos para la sección "Sobre Mi" */
+
+.SobreMi {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+}
+
+#imgBio {
+  flex: 1;
+  max-width: 50%;
+  margin-right: 20px;
+}
+
+.SobreMi h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.SobreMi p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-top: 10px;
 }
 
 /* Estilos de la sección de proyectos */
